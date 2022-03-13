@@ -1,8 +1,17 @@
+import Head from "next/head";
 import Link from "next/link";
 
 export default function CompleteCheckout() {
 	return (
 		<>
+			<Head>
+				<title>Transaksi Berhasil</title>
+				<link
+					rel="shortcut icon"
+					href="/icon/logo.png"
+					type="image/x-icon"
+				/>
+			</Head>
 			<section className="complete-checkout mx-auto pt-lg-145 pb-lg-145 pt-100 pb-80">
 				<div className="container-fluid">
 					<div className="text-center">
@@ -267,14 +276,14 @@ export default function CompleteCheckout() {
 						</p>
 					</div>
 					<div className="button-group d-flex flex-column mx-auto">
-                  <Link href="/member">
-                     <a
-                        className="btn btn-dashboard fw-medium text-lg text-white rounded-pill mb-16"
-                        role="button"
-                     >
-                        My Dashboard
-                     </a>
-                  </Link>
+						<Link href="/member">
+							<a
+								className="btn btn-dashboard fw-medium text-lg text-white rounded-pill mb-16"
+								role="button"
+							>
+								My Dashboard
+							</a>
+						</Link>
 						<a
 							className="btn btn-whatsapp fw-medium text-lg color-palette-1 rounded-pill"
 							href="https://wa.me/6281314150854?text=Saya%20ingin%20bertanya%20mengenai%20status%20pembayaran%20pesanan%20top-up%20voucher%20saya"

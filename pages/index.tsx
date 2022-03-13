@@ -16,7 +16,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>StoreGG - Topup & Get a New Experience in Gaming</title>
+				<title>STOREGG - Topup & Get a New Experience in Gaming</title>
 				<meta name="description" content="Kami menyediakan jutaan cara untuk membantu players menjadi pemenang sejati"/>
 				<meta property="og:title" content="StoreGG - Topup & Get a New Experience in Gaming" />
 				<meta property="og:description" content="Kami menyediakan jutaan cara untuk membantu players menjadi pemenang sejati" />
