@@ -7,7 +7,7 @@ export default function SignUp() {
 	return (
 		<>
 			<Head>
-				<title>Sign Up</title>
+				<title>Sign Up | STOREGG</title>
 				<link
 					rel="shortcut icon"
 					href="/icon/logo.png"

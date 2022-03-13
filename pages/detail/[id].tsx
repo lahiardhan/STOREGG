@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useEffect } from "react";
 import Footer from "../../components/organisms/Footer";
 import Navbar from "../../components/organisms/Navbar";
@@ -14,9 +15,13 @@ interface DetailProps {
 export default function Detail({dataItem, nominals, payments}: DetailProps) {
    useEffect(() => {
       localStorage.setItem('data-item', JSON.stringify(dataItem));
-   }, [])
+   }, []);
    return (
       <>
+         <Head>
+				<title>{dataItem.name} Voucher | STOREGG</title>
+				<link rel="shortcut icon" href="/icon/logo.png" type="image/x-icon" />
+			</Head>
          <Navbar />
          <section className="detail pt-lg-60 pb-50">
             <div className="container-xxl container-fluid">

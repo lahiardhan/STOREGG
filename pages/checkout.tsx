@@ -8,7 +8,7 @@ export default function Checkout() {
 	return (
 		<>
 			<Head>
-				<title>Checkout</title>
+				<title>Checkout Voucher | STOREGG</title>
 				<link rel="shortcut icon" href="/icon/logo.png" type="image/x-icon" />
 			</Head>
 			<section className="checkout mx-auto pt-md-100 pb-md-145 pt-30 pb-30">

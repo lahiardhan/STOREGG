@@ -7,7 +7,7 @@ export default function SignIn() {
 	return (
 		<>
 			<Head>
-				<title>Sign In</title>
+				<title>Sign In | STOREGG</title>
 				<link
 					rel="shortcut icon"
 					href="/icon/logo.png"

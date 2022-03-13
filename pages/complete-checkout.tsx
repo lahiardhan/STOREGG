@@ -5,7 +5,7 @@ export default function CompleteCheckout() {
 	return (
 		<>
 			<Head>
-				<title>Transaksi Berhasil</title>
+				<title>Transaksi Berhasil | STOREGG</title>
 				<link
 					rel="shortcut icon"
 					href="/icon/logo.png"
