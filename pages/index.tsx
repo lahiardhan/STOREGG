@@ -18,10 +18,9 @@ export default function Home() {
 			<Head>
 				<title>StoreGG - Topup & Get a New Experience in Gaming</title>
 				<meta name="description" content="Kami menyediakan jutaan cara untuk membantu players menjadi pemenang sejati"/>
-				{/* <meta property="og:title" content="StoreGG - Topup & Get a New Experience in Gaming" />
+				<meta property="og:title" content="StoreGG - Topup & Get a New Experience in Gaming" />
 				<meta property="og:description" content="Kami menyediakan jutaan cara untuk membantu players menjadi pemenang sejati" />
-				<meta property="og:image" content="https://" />
-				<meta property="og:url" content="https://" /> */}
+				<meta property="og:image" content="/img/Thumbnail-storegg.png" />
 				<link rel="shortcut icon" href="/icon/logo.png" type="image/x-icon" />
 			</Head>
 
