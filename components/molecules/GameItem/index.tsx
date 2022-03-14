@@ -26,7 +26,7 @@ export default function GameItem(props: GameItemProps) {
                <div className="cover position-absolute bottom-0 m-32">
                   <div className="d-flex flex-column h-100 justify-content-between text-decoration-none">
                      <div className="game-icon mx-auto">
-                        <Image src="/icon/console.svg" width={54} height={36} alt="console" />
+                        <Image src="/icon/console.svg" width={54} height={36} alt="console" layout="fixed"/>
                      </div>
                      <div>
                         <p className="fw-semibold text-white text-xl m-0">
