@@ -1,7 +1,7 @@
 {
     "env": {
         "browser": true,
-        "es6": true
+        "es2021": true
     },
     "extends": [
         "plugin:react/recommended",
@@ -26,10 +26,13 @@
     "rules": {
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
         "react/react-in-jsx-scope": "off",
-        "jsx-a11y/anchor-is-valid": "off",
+        "indent": [2, "tab"],
+        "no-tabs": ["error", { "allowIndentationTabs": true }],
+        "avoidEscape": 1,
         "react/jsx-props-no-spreading": "off",
         "no-underscore-dangle": "off",
         "jsx-a11y/label-has-associated-control": "off",
+        "jsx-a11y/anchor-is-valid": "off",
         "import/extensions": ["error", "ignorePackages", {
             "js": "never",
             "jsx": "never",
@@ -38,20 +41,14 @@
         }]
     },
     "settings": {
-        "import/extensions": [
-          ".js",
-          ".jsx",
-          ".ts",
-          ".tsx"
-        ],
+        "import/extensions": [".js",".jsx",".ts",".tsx"],
         "import/parsers": {
             "@typescript-eslint/parser": [".ts", ".tsx"]
         },
         "import/resolver": {
             "node": {
-                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+                "extensions": [".js",".jsx",".ts",".tsx"]
             }
         }
     }
-
 }
