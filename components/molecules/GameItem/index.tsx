@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export interface GameItemProps {
@@ -13,7 +14,7 @@ export default function GameItem(props: GameItemProps) {
          <Link href={`/detail/${id}`}>
             <a>
                <div className="blur-sharp">
-                  <img
+                  <Image
                      className="thumbnail"
                      src={thumbnail}
                      width={205}
