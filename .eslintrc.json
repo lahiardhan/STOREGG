@@ -28,7 +28,7 @@
         "react/react-in-jsx-scope": "off",
         "indent": [2, "tab"],
         "no-tabs": ["error", { "allowIndentationTabs": true }],
-        "avoidEscape": 1,
+        "avoidEscape": true,
         "react/jsx-props-no-spreading": "off",
         "no-underscore-dangle": "off",
         "jsx-a11y/label-has-associated-control": "off",
